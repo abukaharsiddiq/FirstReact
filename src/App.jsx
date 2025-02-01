@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import Header from "./components/Header";
 
 function App() {
 
   return (
     <>
-        <h4 className="bg-green-900">Hello React</h4>
+        
     </>
   )
 }
