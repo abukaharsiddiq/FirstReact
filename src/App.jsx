@@ -1,12 +1,24 @@
-import { useState } from 'react'
+import Header from "./components/Header";
+
+import ResponsiveSlider from "./components/ResponsiveSlider";
+
+import About from "./components/About";
+import Services from "./components/Services";
+import ContactSection from "./components/ContactSection";
+
+import Footer from "./components/Footer";
 
 function App() {
-
   return (
     <>
-        <h4 className="bg-green-900">Hello React</h4>
+      <Header />
+      <ResponsiveSlider />
+      <About />
+      <Services />
+      <ContactSection />
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
